@@ -70,12 +70,52 @@ header{
     position: relative;
 }
 
+#card3{
+    background-image:url('../images/LinkedIn.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#card4{
+    background-image:url('../images/Twitter.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#card5{
+    background-image:url('../images/Instagram.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#card6{
+    background-image:url('../images/Youtube.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#card7{
+    background-image:url('../images/Github.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .card h1{
     position: absolute;
 }
 .dimCard{
     display: flex;
-    background-color:rgba(26,26,26,0.6);
+    background-color:rgba(26,26,26,0.7);
     justify-content: center;
     align-items: center;
     height: 100%;
