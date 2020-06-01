@@ -71,10 +71,11 @@ header{
     align-items: center;
     height: 100%;
     width: 100%;
-    transition: .4s;
+    transition: .5s;
 }
-.textCard:hover{
-    height: 600px;
+.textCard:hover {
+    height: 65vh;
+    color:#e6e6e6;
 }
 
 
@@ -100,7 +101,7 @@ header{
     position: relative;
 }
 #card4{
-    background-image:url('../images/Twitter.jpg');
+    background-image:url('../images/Twitter.png');
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
@@ -122,6 +123,13 @@ header{
 }
 #card7{
     background-image:url('../images/Github.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#card8{
+    background-image:url('../images/Phone.png');
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
