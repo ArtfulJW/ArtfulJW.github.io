@@ -1,0 +1,36 @@
+body{
+    background-color: #262626;
+    margin: 0;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.square1{
+    background-color: #4d4d4d;
+    height: 360px;
+    width: 240px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+.square1:hover {
+    animation-name: "colorShift";
+    background-color: #a65959;
+    animation-duration: .5s;
+}
+@keyframes colorShift{
+    from {background-color: #4d4d4d;}
+    to {background-color: #a65959;}
+}
+
+.innerCircle1{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #666;
+    margin: auto;
+}
