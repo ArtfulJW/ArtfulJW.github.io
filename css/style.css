@@ -8,7 +8,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a{
+a, a:visited, a:hover, a:active{
     color:#999999;
 }
 
