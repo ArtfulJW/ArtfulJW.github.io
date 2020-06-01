@@ -8,6 +8,10 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a{
+    color:#999999;
+}
+
 .box{
     display: flex;
     height: 50vh;
@@ -74,10 +78,6 @@ header{
 }
 .dimCard:hover{
     background-color:rgba(26,26,26,0.0);
-}
-
-#dimCardText{
-    align-content: center;
 }
 
 #card2{
