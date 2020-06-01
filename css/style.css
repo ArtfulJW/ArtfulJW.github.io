@@ -3,34 +3,89 @@ body{
     margin: 0;
 }
 
-.container{
-    width: 60%;
-    margin: auto;
+header{
+    color: #999999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    display: flex;
+    height: 50vh;
+    background-color: #262626;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width:none;
+    padding:0 10px;
+}
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+/* Text Area */
+header{
+    height:200px;
+    font-size: 250%;
+    text-align: center;
+    padding-top:40px;
+    font-style: bold;
+}
+
+.card {
+    font-size: 15px;
+    color: #999999;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    flex-shrink: 0;
+    margin-right: 25px;
+    background-color: #4d4d4d;
+    height: 90%;
+    width: 400px;
+    border-radius: 40px;
+    position: relative;
+    overflow:hidden;
+
+    
+}
+
+.card:hover:before{
+
+}
+
+#card1{
+    background-image:url('../images/3D Render.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
     position: relative;
 }
 
-.square1{
-    background-color: #4d4d4d;
-    height: 360px;
-    width: 240px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 25px;
+.card h1{
+    position: absolute;
 }
-.square1:hover {
-    animation-name: "colorShift";
-    background-color: #a65959;
-    animation-duration: .5s;
+.dimCard{
+    display: flex;
+    background-color:rgba(26,26,26,0.6);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: background-color 500ms;
+
 }
-@keyframes colorShift{
-    from {background-color: #4d4d4d;}
-    to {background-color: #a65959;}
+.dimCard:hover{
+    background-color:rgba(26,26,26,0.0);
 }
 
-.innerCircle1{
-    height: 50px;
-    width: 100px;
-    border-radius: 15px;
-    background-color: #666;
-    margin: auto;
+#dimCardText{
+    align-content: center;
 }
+
+#card2{
+    background-image:url("") ;
+    background-repeat:no-repeat;
+    background-position: center 120px;
+}
+
+
+
+
