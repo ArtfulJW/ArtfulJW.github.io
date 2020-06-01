@@ -62,6 +62,13 @@ header{
     background-size:cover;
     position: relative;
 }
+#card2{
+    background-image:url('../images/Facebook.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
 .card h1{
     position: absolute;
@@ -78,12 +85,6 @@ header{
 }
 .dimCard:hover{
     background-color:rgba(26,26,26,0.0);
-}
-
-#card2{
-    background-image:url("") ;
-    background-repeat:no-repeat;
-    background-position: center 120px;
 }
 
 
