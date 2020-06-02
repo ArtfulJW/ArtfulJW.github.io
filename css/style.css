@@ -20,8 +20,8 @@ a, a:visited, a:hover, a:active{
     overflow-y: hidden;
     white-space: nowrap;
     scrollbar-width:none;
-    margin-right: 15px;
     margin-left: 15px;
+    margin-right:15px;
 }
 .box::-webkit-scrollbar {
     display: none;
@@ -38,10 +38,6 @@ header{
     font-weight: lighter;
 }
 
-.box{
-    margin-right:15px;
-}
-
 .card {
     font-size: 15px;
     color: #999999;
@@ -49,12 +45,11 @@ header{
     font-weight:normal;
     flex-shrink: 0;
     margin-right: 25px;
-    margin-top: 20px;
     background-color: #4d4d4d;
     height: 90%;
     width: 400px;
     border-radius: 40px;
-    position: bsolute;
+    position: absolute;
     overflow:hidden;
     z-index: 0;
     
@@ -89,7 +84,7 @@ header{
 }
 
 #card1{
-    background-image:url('../images/3D Render.png');
+    background-image:url('../images/Artstation.png');
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
