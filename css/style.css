@@ -26,6 +26,9 @@ a, a:visited, a:hover, a:active{
 .box::-webkit-scrollbar {
     display: none;
 }
+.box::-webkit-scrollbar{
+    width:100px;
+}
 
 /* Text Area */
 header{
@@ -49,9 +52,28 @@ header{
     height: 90%;
     width: 400px;
     border-radius: 40px;
-    position: absolute;
+    position: relative;
     overflow:hidden;
     z-index: 0;
+    overscroll-behavior-x: contain;
+    
+}
+
+.nullCard1{
+    position: relative;
+    flex-shrink: 0;
+    height:90%;
+    width: 400px;
+    padding-right:175px;
+    padding-left:175px;
+    
+}
+.nullCard2{
+    position: relative;
+    flex-shrink: 0;
+    height:90%;
+    width: 400px;
+    padding-right:315px;
     
 }
 
