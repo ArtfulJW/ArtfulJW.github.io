@@ -1,15 +1,22 @@
 body{
-    background-color: #262626;
+    background-color: #404040;
     margin: 0;
 }
 
 header{
     color: #999999;
+    background-color:#303030;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a, a:visited, a:hover, a:active{
     color:#999999;
+}
+
+.stick{
+    position: sticky;
+    position: -webkit-sticky;
+    padding-top: 5px;
 }
 
 .box{
@@ -20,8 +27,6 @@ a, a:visited, a:hover, a:active{
     overflow-y: hidden;
     white-space: nowrap;
     scrollbar-width:none;
-    margin-left: 15px;
-    margin-right:15px;
 }
 .box::-webkit-scrollbar {
     display: none;
@@ -43,12 +48,12 @@ header{
 
 .card {
     margin-top:23px;
+    margin-right: 25px;
     font-size: 15px;
     color: #999999;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:normal;
     flex-shrink: 0;
-    margin-right: 25px;
     background-color: #4d4d4d;
     height: 90%;
     width: 400px;
@@ -147,6 +152,15 @@ header{
 
 .card h1{
     position: absolute;
+}
+
+.container2 {
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:2000px;
+    padding: 20px;
 }
 
 
