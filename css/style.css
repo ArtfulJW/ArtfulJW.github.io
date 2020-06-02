@@ -1,22 +1,22 @@
 body{
-    background-color: #404040;
+    background-color:#303030;
     margin: 0;
 }
 
 header{
     color: #999999;
     background-color:#303030;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
 }
 
 a, a:visited, a:hover, a:active{
     color:#999999;
-}
-
-.stick{
-    position: sticky;
-    position: -webkit-sticky;
-    padding-top: 5px;
 }
 
 .box{
@@ -37,16 +37,6 @@ a, a:visited, a:hover, a:active{
     width:100px;
 }
 
-/* Text Area */
-header{
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    font-weight: lighter;
-}
 
 .card {
     margin-right: 25px;
@@ -154,16 +144,6 @@ header{
 .card h1{
     position: absolute;
 }
-
-.container2 {
-    background-color: #303030;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:2000px;
-    padding: 20px;
-}
-
 
 
 
