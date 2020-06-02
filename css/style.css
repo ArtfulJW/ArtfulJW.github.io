@@ -19,6 +19,10 @@ a, a:visited, a:hover, a:active{
     color:#999999;
 }
 
+.container{
+    box-shadow: 4px 1px 15px;
+}
+
 .box{
     display: flex;
     height: 50vh;
@@ -53,6 +57,7 @@ a, a:visited, a:hover, a:active{
     overflow:hidden;
     z-index: 0;
     overscroll-behavior-x: contain;
+
     
 }
 
@@ -78,6 +83,7 @@ a, a:visited, a:hover, a:active{
     height: 100%;
     width: 100%;
     transition: .5s;
+    text-shadow: 4px 4px 5px #262626;
 }
 .textCard:hover {
     height: 65vh;
