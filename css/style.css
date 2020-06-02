@@ -27,6 +27,8 @@ a, a:visited, a:hover, a:active{
     overflow-y: hidden;
     white-space: nowrap;
     scrollbar-width:none;
+    align-items:center;
+
 }
 .box::-webkit-scrollbar {
     display: none;
@@ -47,7 +49,6 @@ header{
 }
 
 .card {
-    margin-top:23px;
     margin-right: 25px;
     font-size: 15px;
     color: #999999;
