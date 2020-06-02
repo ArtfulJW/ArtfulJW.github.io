@@ -60,26 +60,6 @@ header{
     
 }
 
-.nullCard1{
-    margin-top:23px;
-    position: relative;
-    flex-shrink: 0;
-    height:90%;
-    width: 400px;
-    padding-right:175px;
-    padding-left:175px;
-    
-}
-.nullCard2{
-    margin-top:23px;
-    position: relative;
-    flex-shrink: 0;
-    height:90%;
-    width: 400px;
-    padding-right:315px;
-    
-}
-
 .dimCard{
     display: absolute;
     background-color:rgba(26,26,26,0.7);
