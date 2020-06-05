@@ -1,0 +1,46 @@
+body{
+    background-color:#303030;
+    margin: 0;
+    height: 2500px;
+}
+header{
+    color: #999999;
+    background-color:#303030;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.sticky-container{
+    color: #999999;
+    background-color: #404040 ;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.sticky-box{
+    padding: 5px;
+}
+
+.picture-container{
+    height: 50vh;
+
+}
+
+.picture1{
+    background-image: url(../images/3DRender_ToDark.png);
+    height: 400px;
+    width: auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    z-index:-1;
+}
