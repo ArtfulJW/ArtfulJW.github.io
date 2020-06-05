@@ -1,3 +1,7 @@
+a, a:visited, a:hover, a:active{
+    color:#999999;
+}
+
 body{
     background-color:#303030;
     margin: 0;
