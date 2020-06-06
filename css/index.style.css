@@ -73,7 +73,7 @@ header{
     width: auto;
     z-index:-1;
     box-shadow: 5px 5px 30px;
-    margin-left: 25vw;
+    margin-left: 17vw;
     margin-right: 25vw;
     margin-top: 100px;
 }
@@ -85,4 +85,34 @@ header{
     width:100vw;
     height: 500px;
     z-index:-2;
+}
+
+.name{
+    display: absolute;
+    height:100px;
+    color: #8080ff;
+    font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120px;
+    margin-left: 850px;
+}
+
+.career{
+    display: absolute;
+    height:50px;
+    color: #999999;
+    font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-left: 850px;
+    margin-top:20px;
+}
+
+.description{
+    display: absolute;
+    height:250px;
+    width: 900px;
+    color: #8d8d8d;
+    font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 850px;
+    margin-top:20px;
 }
