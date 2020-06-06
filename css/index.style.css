@@ -71,7 +71,7 @@ header{
     position: absolute;
     height: 650px;
     width: auto;
-    z-index:1;
+    z-index:-1;
     box-shadow: 5px 5px 30px;
     margin-left: 25vw;
     margin-right: 25vw;
@@ -84,5 +84,5 @@ header{
     margin-top: 175px;
     width:100vw;
     height: 500px;
-    z-index:0;
+    z-index:-2;
 }
