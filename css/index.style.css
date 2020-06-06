@@ -1,11 +1,19 @@
+
 a, a:visited, a:hover, a:active{
     color:#999999;
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: "Zector";
+    src: url("../font/Zector.otf");
 }
 
 body{
     background-color:#303030;
     margin: 0;
     height: 2500px;
+    background-attachment:fixed;
 }
 header{
     color: #999999;
@@ -21,30 +29,60 @@ header{
 
 .sticky-container{
     color: #999999;
-    background-color: #404040 ;
+    background-color: #424242 ;
     font-size: 35px;
+    font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
+    height: 75px;
     display: flex;
     align-items: center;
-    justify-content: center;
     position: sticky;
     top: 0;
-}
-.sticky-box{
-    padding: 5px;
+    /* background: rgba(66,66,66,.4); */
+
+    background: linear-gradient(0,rgba(66,66,66,0), rgba(26,26,26,.6), rgba(26,26,26,1))
+
 }
 
-.picture-container{
-    height: 50vh;
+.nav-button{
+    padding: 15px;
+}
 
+#nav-button1{
+   margin-right: auto;
+   margin-left: 50px;
+   color: #8080ff;
+
+}
+
+#nav-button5{
+    margin-right: 50px;
+    color: #8080ff;
+}
+
+.container1{
+    position:relative;
+}
+
+.picturecontainer{
+    height:800px;
 }
 
 .picture1{
-    background-image: url(../images/3DRender_ToDark.png);
-    height: 400px;
+    position: absolute;
+    height: 650px;
     width: auto;
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: contain;
-    position: relative;
-    z-index:-1;
+    z-index:1;
+    box-shadow: 5px 5px 30px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 100px;
+}
+
+.darkerline{
+    position: absolute;
+    background-color:#1a1a1a;
+    margin-top: 175px;
+    width:100vw;
+    height: 500px;
+    z-index:0;
 }
