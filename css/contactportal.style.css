@@ -3,6 +3,11 @@ body{
     margin: 0;
 }
 
+@font-face{
+    font-family: "Zector";
+    src: url("../font/Zector.otf");
+}
+
 header{
     color: #999999;
     background-color:#303030;
@@ -10,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     font-weight: lighter;
 }
@@ -46,7 +51,7 @@ a, a:visited, a:hover, a:active{
     margin-right: 25px;
     font-size: 15px;
     color: #999999;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
     font-weight:normal;
     flex-shrink: 0;
     background-color: #4d4d4d;
