@@ -54,12 +54,16 @@ a, a:visited, a:hover, a:active{
         width:100%;
         font-size: 3vw;
     }
+    .nav-button{
+        padding-left: 2vw;
+        padding-right:2vw;
+    }
     .container1{
         width:100%;
     }
     .darkerline{
         margin-top: 90px;
-        height:140vw;
+        height:150vw;
     }
     .picture1{
         margin-left: 30%;
@@ -68,8 +72,8 @@ a, a:visited, a:hover, a:active{
         width:auto;
     }
     .name{
-        height:35px;
-        width:160px;
+        height:30px;
+        width:50vw;
         font-size: 10vw;
         margin-left: 27.5%;
         margin-top: 46vw;
@@ -123,10 +127,10 @@ header{
     background-color: #424242 ;
     font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
     height: 75px;
-    width: 100%;
     display: flex;
     align-items: center;
     position: sticky;
+    width:100%;
     top: 0;
     left:0;
     /* background: rgba(66,66,66,.4); */
@@ -136,7 +140,6 @@ header{
 }
 
 .nav-button{
-    padding: 15px;
     font-size: 100%;
 }
 
