@@ -52,7 +52,7 @@ a, a:visited, a:hover, a:active{
         margin-top:20px;
     }
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:1310px){
     .sticky-container{
         width:100%;
         font-size: 3vw;
