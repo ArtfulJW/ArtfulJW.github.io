@@ -1,4 +1,5 @@
-
+/* Depracated Version */
+/* 
 a, a:visited, a:hover, a:active{
     color:#999999;
     text-decoration: none;
@@ -136,7 +137,7 @@ header{
     width:100%;
     top: 0;
     left:0;
-    /* background: rgba(66,66,66,.4); */
+     background: rgba(66,66,66,.4); 
     z-index:0;
     background: linear-gradient(0,rgba(66,66,66,0), rgba(26,26,26,.6), rgba(26,26,26,1))
 
@@ -195,5 +196,48 @@ header{
     display: absolute;
     color: #8d8d8d;
     font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+/* Base Container Class */
+.Base-Container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+.LandingPage-NavBar-Container{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    background-color: aqua;
+}
+
+.NavBarLink{
+    margin: 10px;
+}
+
+#HomeButton{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    background-color: aquamarine;
+}
+
+#AboutButton{
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
+    background-color: blue;
+}
+
+#BlogButton{
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 1;
+    background-color: brown;
+}
+
+#ContactButton{
+    grid-row: 1 / span 1;
+    grid-column: 5 / span 1;
+    background-color: chocolate;
 }
 
