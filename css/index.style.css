@@ -198,6 +198,12 @@ header{
     font-family: "Zector", Verdana, Geneva, Tahoma, sans-serif;
 } */
 
+/* Link text Override */
+/* a, a:visited, a:hover, a:active{
+    color:#FFFFFF;
+    text-decoration: none;
+} */
+
 /* Base Container Class */
 .Base-Container{
     display: grid;
@@ -215,6 +221,7 @@ header{
 
 .NavBarLink{
     margin: 10px;
+    place-self: center;
 }
 
 #HomeButton{
