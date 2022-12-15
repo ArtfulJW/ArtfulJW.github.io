@@ -3,6 +3,15 @@
 <head>
     <title>Jay's Website</title>
     <link rel="stylesheet" type="text/css" href=css/index.style.css>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -11,11 +20,12 @@
     <!-- Base Container to hold all content -->
     <div class="Base-Container">
         <div class="Video-Container">
-            <video id="Video" height="720" width="1280" autoplay muted loop>
+            <video id="Video" autoplay muted loop>
                 <source src="3D138_JayWang_Animatic.005.mp4" type="video/mp4">
                 Your browser doesn't support video tag
             </video>
         </div>
+        <img id="LandingPage-Logo" src="./images/PersonalLogo_NoBackground.png" alt="">
         <div class="LandingPage-NavBar-Container">
             <a href="" id="HomeButton" class="NavBarLink">Home</a>
             <a href="" id="AboutButton" class="NavBarLink">About</a>
@@ -23,8 +33,9 @@
             <a href="" id="ContactButton" class="NavBarLink">Contact</a>
         </div>
         <div id="Arrow-Container">
-            <p>Learn more</p>
-            <img src="" alt="">
+            <p id="ArrowText">Learn more</p>
+            <!-- <img id="Logo" src="./images/PersonalLogo_NoBackground.png" alt=""> -->
+            <span id="Arrow" class="material-symbols-outlined">arrow_downward</span>
         </div>
     </div>
 
