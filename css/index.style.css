@@ -208,7 +208,7 @@ header{
 .Base-Container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 6fr 1fr;
 }
 .LandingPage-NavBar-Container{
     display: grid;
@@ -219,8 +219,13 @@ header{
     background-color: aqua;
 }
 
+.Video-Container{
+    /* grid-row: 1 / span 1;
+    grid-column: 1 / span 1; */
+}
+
 .NavBarLink{
-    margin: 10px;
+    margin: 3px;
     place-self: center;
 }
 
@@ -246,5 +251,20 @@ header{
     grid-row: 1 / span 1;
     grid-column: 5 / span 1;
     background-color: chocolate;
+}
+
+#Arrow-Container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+    place-self: center;
+    background-color: blueviolet;
+}
+
+#Video{
+    width: 100%    !important;
+    height: auto    !important;
 }
 
