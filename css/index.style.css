@@ -312,6 +312,7 @@ html, body {
 #Video{
     width: 100%    !important;
     height: auto    !important;
+    filter: brightness(90%);
 }
 
 #Arrow{
