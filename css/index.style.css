@@ -258,7 +258,7 @@ html, body {
     height: auto;
     width: 40%;
     place-self: center;
-    margin-top: 1000px;
+    margin-top: 52.5%;
 }
 
 .Video-Container{
@@ -312,7 +312,7 @@ html, body {
 #Video{
     width: 100%    !important;
     height: auto    !important;
-    filter: brightness(90%);
+    filter: brightness(80%);
 }
 
 #Arrow{
