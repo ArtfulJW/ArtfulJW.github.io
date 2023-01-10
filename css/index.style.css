@@ -338,7 +338,7 @@ html, body {
     color: #FFFFFF;
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
-    /* margin-bottom: -10px; */
+    margin-bottom: -10px;
     place-self: center;
 }
 
