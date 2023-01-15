@@ -382,7 +382,7 @@ html, body {
     background-color: darkgoldenrod;
     width: 90%    !important;
     height: auto    !important;
-    margin: 1vw;
+    margin: 2vw;
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
     border-radius: 10px;
@@ -394,8 +394,8 @@ html, body {
     /* background-color: crimson; */
     justify-self: start;
     align-self: end;
-    margin-top: 100px;
-    margin-bottom: -30px;
+    /* margin-top: 100px;
+    margin-bottom: -30px; */
     font-size: 3vw;
 }
 
@@ -403,9 +403,10 @@ html, body {
     /* background-color: aquamarine; */
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .1fr .1fr;
+    grid-template-rows: repeat(2, .25fr);
     grid-row: 1 / span 1;
     grid-column: 2 / span 1;
+    align-self: center;
 }
 
 #ProfileDescription{
