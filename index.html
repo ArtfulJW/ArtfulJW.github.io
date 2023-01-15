@@ -19,32 +19,46 @@
     
     <!-- Base Container to hold all content -->
     <div class="Base-Container noselect">
-        <div class="LandingPage-NavBar-Container ">
-            <a href="" id="HomeButton" class="NavBarLink">Home</a>
-            <a href="" id="AboutButton" class="NavBarLink">About</a>
-            <a href="" id="BlogButton" class="NavBarLink">Blog</a>
-            <a href="contactportal.html" id="ContactButton" class="NavBarLink">Contact</a>
+
+        <div id="LandingPage-Container">
+
+            <div class="LandingPage-NavBar-Container ">
+                <a href="" id="HomeButton" class="NavBarLink">Home</a>
+                <a href="" id="AboutButton" class="NavBarLink">About</a>
+                <a href="" id="BlogButton" class="NavBarLink">Blog</a>
+                <a href="contactportal.html" id="ContactButton" class="NavBarLink">Contact</a>
+            </div>
+    
+            <div class="Video-Container">
+                <video id="Video" autoplay muted loop playsinline>
+                    <source src="https://github.com/ArtfulJW/ArtfulJW.github.io/blob/master/3D138_JayWang_Animatic.005.mp4?raw=true" type="video/mp4">
+                    Your browser doesn't support video tag
+                </video>
+            </div>
+    
+            <img id="LandingPage-Logo" class="" src="./images/PersonalLogo_NoBackground.png" alt="">
+    
+            <div id="Arrow-Container">            
+                <p id="ArrowText" class="">Learn more</p>
+                <!-- <img id="Logo" src="./images/PersonalLogo_NoBackground.png" alt=""> -->
+                <span id="Arrow" class="material-symbols-outlined ">arrow_downward</span>
+            </div>
+            
         </div>
-        <div class="Video-Container">
-            <video id="Video" autoplay muted loop playsinline>
-                <source src="https://github.com/ArtfulJW/ArtfulJW.github.io/blob/master/3D138_JayWang_Animatic.005.mp4?raw=true" type="video/mp4">
-                Your browser doesn't support video tag
-            </video>
-        </div>
-        <img id="LandingPage-Logo" class="" src="./images/PersonalLogo_NoBackground.png" alt="">
-        <div id="Arrow-Container">            
-            <p id="ArrowText" class="">Learn more</p>
-            <!-- <img id="Logo" src="./images/PersonalLogo_NoBackground.png" alt=""> -->
-            <span id="Arrow" class="material-symbols-outlined ">arrow_downward</span>
-        </div>
+
         <!-- Relative Container to hold absolute content 
         or
         Profile-Container Has background-image set as thhe marble and stack content in this container.-->
-        <div id="Profile-Container-ID" class="Profile-Container">
+        <div id="Profile-Container-ID">
             
             <img id="JayPicture" src="./images/JayPicture.jpg" alt="">
-
+            <div id="ProfileDescription-Container">
+                <h1 id="ProfileTitle">Hey there, I'm Jay </h1>
+                <p id="ProfileDescription">I'm a 3D Modeling & Surfacing Artist currently studying at the British Columbia Institute of Technology in the Computer Systems Technology Program.
+                    I aspire to become a Game Developer combining both my Art and Programming knowledge.</p>
+            </div>
         </div>
+
     </div>
     
 </body>
