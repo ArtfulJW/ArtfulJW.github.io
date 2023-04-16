@@ -447,12 +447,13 @@ html, body {
     grid-row: 3 / span 1;
     grid-column: 1 / span 1;
     /* position: absolute; */
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-weight: 100;
     /* margin-bottom: -0.1em; */
     background-color: #FFFFFF;
     z-index: 1;
-    padding-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .Projects-Cards-Container{
