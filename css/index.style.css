@@ -448,7 +448,7 @@ html, body {
     grid-column: 1 / span 1;
     /* position: absolute; */
     font-size: 3.5vw;
-    font-weight: 100;
+    font-weight: 200;
     /* margin-bottom: -0.1em; */
     background-color: #FFFFFF;
     z-index: 1;
@@ -460,12 +460,12 @@ html, body {
     /* padding-top: 4em; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
     grid-row: 4 / span 1;
     grid-column: 1 / span 1;
     /* padding: 10%; */
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 5%;
     gap: 1em;
     column-gap: 2%;
@@ -499,6 +499,7 @@ h1 {
     width: auto;
     text-decoration: none;
     filter: var(--shadow-dark);
+    margin-bottom: -35%;
     /* background-color: aqua; */
     /* margin-top: -5em; */
     
@@ -519,17 +520,19 @@ h1 {
     font-size: var(--h2-sm);
 }
 .Card-Container-Descriptor{
-    font-size: 0.8vw;
+    font-size: 0.75vw;
+    font-weight: 400;
     display: grid;
     color: black;
     grid-template-columns: 1fr;
-    grid-template-rows: .5fr 1fr .25fr;
+    grid-template-rows: .1fr 1fr .25fr;
     padding: 2em;
     height: 80%;
     border-radius: 0px 0px var(--border-rad-sm) var(--border-rad-sm);
     background-color: var(--bg-light);
     transition: var(--transition);
     grid-row: 2 / span 1;
+    line-height: 1.6;
 }
 
 .Card-Container:hover > .Card-Container-Descriptor {
