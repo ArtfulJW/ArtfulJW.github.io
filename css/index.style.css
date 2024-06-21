@@ -543,27 +543,68 @@ h1 {
 .Description-Author{
     align-self: end;
 }
-/* @media only screen and (max-width: 850px) {
-    .Card-Container{
-        
-    }
 
-    .Projects-Cards-Container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
-        padding-bottom: 1vw;
-    }
+#Footer{
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
 
-    .Card-Container-Descriptor{
-        font-size: 3.5vw;
-    }
-} */
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    background-color: rgb(77, 77, 77);
+    padding-bottom: -16em;
+    overflow: hidden;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#Footer-Logo{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    height: auto;
+    width: 65%;
+    place-self: center;
+}
+
+#Footer-Links{
+    /* background-color: cornflowerblue; */
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    display: grid;
+}
+
+/* ============== MEDIA QUERY ==============*/
 
 @media only screen and (max-width: 850px) {
+    #LandingPage-Container{
+        /* margin-bottom: -7em; */
+        height: 84%;
+        /* background-color: #134ebb; */
+    }
+    .LandingPage-NavBar-Container{
+        padding: 1em;
+        margin-top: -.35em;
+    }
+    .NavBarLink{
+        font-size: 1.25em;
+        padding: .25em;
+    }
+    #Arrow{
+        font-size: 12vw;
+    }
+    #ArrowText{
+        font-size: 5vw;
+    }
+    #Profile-Container-ID{
+        margin-top: -2.5em;
+    }
     .Card-Container{
         height: 100%;
     }
-    
+
     .Projects-Cards-Container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -578,6 +619,21 @@ h1 {
         height: 85%;
         width: 100%;
     }
+
+    #Footer{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 0.75fr .75fr;
+    }
+
+    #Footer-Logo{
+        width: 10em;
+    }
+
+    #Footer-Links{
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+
 }
 
 @media only screen and (min-width: 850px) {
@@ -592,7 +648,7 @@ h1 {
     }
 
     .Card-Container-Descriptor{
-        font-size: 1.25vw;
+        font-size: 1.5vw;
     }
 
     .Card-Image{
@@ -615,36 +671,4 @@ h1 {
     .Card-Container-Descriptor{
         font-size: 0.85vw;
     }
-}
-/* ============== CARD CSS ==============*/
-
-#Footer{
-    display: grid;
-    grid-column: 1 / span 1;
-    grid-row: 5 / span 1;
-
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 1fr;
-
-    background-color: rgb(77, 77, 77);
-    padding-bottom: -16em;
-    overflow: hidden;
-    padding-right: 1em;
-}
-
-#Footer-Logo{
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
-    height: auto;
-    width: 65%;
-    place-self: center;
-}
-
-#Footer-Links{
-    /* background-color: cornflowerblue; */
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 1fr;
-    display: grid;
 }
