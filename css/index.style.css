@@ -485,9 +485,9 @@ h1 {
 }
 
 .Component{
-    display: grid;
-    place-items: center;
-    /* margin-top: -10em; */
+    /* display: grid;
+    place-items: center; */
+    /* margin-top: -4em; */
 }
 
 .Card-Container{
@@ -543,23 +543,77 @@ h1 {
 .Description-Author{
     align-self: end;
 }
-@media only screen and (max-width: 360px) {
+/* @media only screen and (max-width: 850px) {
     .Card-Container{
-        margin-bottom: auto;
+        
+    }
+
+    .Projects-Cards-Container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+        padding-bottom: 1vw;
+    }
+
+    .Card-Container-Descriptor{
+        font-size: 3.5vw;
+    }
+} */
+
+@media only screen and (max-width: 850px) {
+    .Card-Container{
+        height: 100%;
+    }
+    
+    .Projects-Cards-Container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: 30vh;
+    }
+
+    .Card-Container-Descriptor{
+        font-size: 3vw;
+    }
+
+    .Card-Image{
+        height: 85%;
+        width: 100%;
     }
 }
 
-@media only screen and (min-width: 450px) {
-    .Card-Container{
-        width: 90%;
-        /* font-size: 15px; */
+@media only screen and (min-width: 850px) {
+    /* .Card-Container{
+        height: 100%;
+    } */
+    
+    .Projects-Cards-Container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr;
+        padding-bottom: 10vw;
+    }
+
+    .Card-Container-Descriptor{
+        font-size: 1.25vw;
+    }
+
+    .Card-Image{
+        height: 85%;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .Card-Container{
+    /* .Card-Container{
         width: 100%;
-        /* font-size: 20px; */
+        font-size: 20px;
+    } */
+    
+    .Projects-Cards-Container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 2fr 2fr;
+    }
+
+    .Card-Container-Descriptor{
+        font-size: 0.85vw;
     }
 }
 /* ============== CARD CSS ==============*/
