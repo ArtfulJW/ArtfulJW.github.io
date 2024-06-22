@@ -394,6 +394,11 @@ html, body {
     /* padding-bottom: -10em; */
 }
 
+#Profile-Container-ID{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 #JayPicture{
     /* background-color: darkgoldenrod; */
     width: 90%    !important;
