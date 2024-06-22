@@ -631,7 +631,7 @@ h1 {
     .Projects-Cards-Container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        margin-bottom: 30vh;
+        /* margin-bottom: 100%; */
     }
 
     .Card-Container-Descriptor{
@@ -646,6 +646,7 @@ h1 {
     #Footer{
         grid-template-columns: 1fr ;
         grid-template-rows: 0.75fr .75fr;
+        margin-top: 20em;
     }
 
     #Footer-Logo{
