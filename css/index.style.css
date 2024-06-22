@@ -407,13 +407,13 @@ html, body {
 }
 
 #ProfileTitle{
-    /* background-color: crimson; */
+    color: rgb(4, 90, 187);
     justify-self: start;
     align-self: end;
-    /* margin-top: 100px;
-    margin-bottom: -30px; */
+    /* margin-top: 100px; */
+    margin-bottom: -.25em;
     font-size: 3vw;
-    font-weight: 100;
+    font-weight: bold;
 }
 
 #ProfileDescription-Container{
@@ -430,8 +430,9 @@ html, body {
     /* background-color: aqua; */
     justify-self: start;
     align-self: start;
-    font-size: 2.0vw;
+    font-size: 4vh;
     padding-right: 7vw;
+    font-weight: 200;
 
 }
 
@@ -449,11 +450,11 @@ html, body {
     /* position: absolute; */
     font-size: 3.5vw;
     font-weight: 200;
-    /* margin-bottom: -0.1em; */
+    margin-bottom: -0.1em;
     background-color: #FFFFFF;
     z-index: 1;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: .25em;
+    /* padding-bottom: 1%; */
 }
 
 .Projects-Cards-Container{
@@ -584,37 +585,47 @@ h1 {
         height: 84%;
         /* background-color: rgb(201, 16, 16); */
     }
+
     .LandingPage-NavBar-Container{
         padding: 1em;
         margin-top: -.35em;
     }
+
     .NavBarLink{
         font-size: 1.25em;
         padding: .25em;
     }
+
     #Arrow{
         font-size: 12vw;
     }
+
     #ArrowText{
         font-size: 5vw;
     }
+
     #Profile-Container-ID{
         margin-top: -8vw;
     }
+
     .Card-Container{
         height: 100%;
     }
-
+    
     #ProfileDescription-Container{
         margin-top: -1em;
     }
 
     #ProfileTitle{
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 
     #ProfileDescription{
-        font-size: 2.5vw;
+        font-size: 3vw;
+    }
+
+    #Projects-Title{
+        font-size: 6vw;
     }
 
     .Projects-Cards-Container{
