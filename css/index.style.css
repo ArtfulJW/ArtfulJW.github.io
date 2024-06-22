@@ -646,7 +646,7 @@ h1 {
     #Footer{
         grid-template-columns: 1fr ;
         grid-template-rows: 0.75fr .75fr;
-        margin-top: 20em;
+        margin-top: 25em;
     }
 
     #Footer-Logo{
