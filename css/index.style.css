@@ -465,13 +465,13 @@ html, body {
 .Projects-Cards-Container{
     /* padding-top: 4em; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-row: 4 / span 1;
     grid-column: 1 / span 1;
     /* padding: 10%; */
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
     padding-bottom: 5%;
     gap: 1em;
     column-gap: 2%;
@@ -671,8 +671,8 @@ h1 {
     } */
     
     .Projects-Cards-Container{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 2fr 2fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         padding-bottom: 10vw;
     }
 
@@ -693,7 +693,7 @@ h1 {
     } */
     
     .Projects-Cards-Container{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 2fr 2fr 2fr;
     }
 
