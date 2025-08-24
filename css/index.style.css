@@ -255,7 +255,9 @@ html, body {
     /* 
     Row 1 - Landing Page
     Row 2 - Profile
-    Row 3 - Projects
+    Row 3 - Squad Container
+    Row 4 - Projects
+    Row 5 - Footer
     */
     /* position: relative; */
     display: grid;
@@ -449,14 +451,80 @@ html, body {
   'opsz' 48
 }
 
-#Projects-Title{
+#Squad-Container{
+    /* background-color: #ff0000; */
+    display: grid;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/SquadWallpaper.PNG");
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 40%;
     grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 1em;
+}
+
+#Squad-Container-Logos{
+    display: grid;
+    /* background-color: #134ebb; */
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#OffworldLogo{
+    max-width: 70%;
+    height: auto;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    justify-self: center;
+    align-self: center;
+}
+
+#SquadLogo{
+    max-width: 70%;
+    height: auto;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    justify-self: center;
+    align-self: center;
+}
+
+#Squad-Container-Texts{
+    display: grid;
+    /* background-color: #ff0000; */
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 1fr;
+    color: white;
+    padding-right: 2em;
+}
+
+#Squad-Container-Texts-JobTitle{
+    font-size: 2vw;
+    justify-self: left;
+    padding-top: 0.5em;
+}
+
+#Squad-Container-Texts-Details{
+    display: grid;
+    font-size: 1.5vw;
+    font-weight: 200;
+    gap: 1em;
+}
+
+#Projects-Title{
+    grid-row: 4 / span 1;
     grid-column: 1 / span 1;
     /* position: absolute; */
     font-size: 3.5vw;
     font-weight: 200;
     margin-bottom: -0.1em;
-    background-color: #FFFFFF;
+    /* background-color: #ff0000; */
     z-index: 1;
     padding-top: .25em;
     /* padding-bottom: 1%; */
@@ -467,7 +535,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-row: 4 / span 1;
+    grid-row: 5 / span 1;
     grid-column: 1 / span 1;
     /* padding: 10%; */
     padding-left: 4%;
@@ -553,7 +621,7 @@ h1 {
 #Footer{
     display: grid;
     grid-column: 1 / span 1;
-    grid-row: 5 / span 1;
+    grid-row: 6 / span 1;
 
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 1fr;
