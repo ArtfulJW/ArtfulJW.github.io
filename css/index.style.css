@@ -464,6 +464,7 @@ html, body {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 #Squad-Container-Logos{
@@ -512,11 +513,13 @@ html, body {
 
 #Squad-Container-Texts-Details{
     display: grid;
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     font-weight: 200;
     gap: 1em;
     padding-left: 2em;
     padding-right: 3em;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 #Projects-Title{
