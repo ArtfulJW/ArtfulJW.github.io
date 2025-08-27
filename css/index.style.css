@@ -463,8 +463,8 @@ html, body {
     grid-column: 1 / span 1;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
 }
 
 #Squad-Container-Logos{
